@@ -3,14 +3,15 @@
     "rules": [
         {
             "domain": [
-                "emby.misakaf.org",
-                "stream4.misakaf.org"
+
             ]
            "domain_suffix": [
-                "emby.misakaf.org",
-                "stream4.misakaf.org"
+                "depay.one", 
+                "aptoide.com",
+                "keeflys.com",
+                "keeflys.com",
+                "orbstack.dev"
             ]
-          
         }
     ]
 }
