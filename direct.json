@@ -3,6 +3,8 @@
     "rules": [
         {
             "domain": [
+                "cdn.jsdelivr.net",
+                "ghp.ci",
                 "cinema.fmta.boo",
                 "theater.fmta.boo",
                 "anime.fmta.boo",
