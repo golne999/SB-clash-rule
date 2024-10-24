@@ -3,9 +3,13 @@
     "rules": [
         {
             "domain": [
-                "jcf.niceduck.lol",
-                "cf.niceduck.lol",
-                "dpxcdn.niceduck.lol"
+                "emby.misakaf.org",
+                "emby.aca.best",
+                "porn.aca.best",
+                "stream1.misakaf.org",
+                "stream2.misakaf.org",
+                "stream3.misakaf.org",
+                "stream4.misakaf.org"
             ]
         }
     ]
