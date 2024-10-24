@@ -2,9 +2,6 @@
     "version": 1,
     "rules": [
         {
-            "domain": [
-
-            ]
            "domain_suffix": [
                 "depay.one", 
                 "aptoide.com",
