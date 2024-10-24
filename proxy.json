@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "emby.misakaf.org",
+                "stream4.misakaf.org"
+            ]
+           "domain_suffix": [
+                "emby.misakaf.org",
+                "stream4.misakaf.org"
+            ]
+          
+        }
+    ]
+}
