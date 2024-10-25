@@ -1,4 +1,4 @@
 #代理
-DOMAIN-SUFFIX,jcf.niceduck.lol
-DOMAIN-SUFFIX,cf.niceduck.lol
-DOMAIN-SUFFIX,dpxcdn.niceduck.lol
+DOMAIN,jcf.niceduck.lol
+DOMAIN,cf.niceduck.lol
+DOMAIN,dpxcdn.niceduck.lol
