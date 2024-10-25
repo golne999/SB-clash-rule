@@ -1,8 +1,8 @@
 #国外
-DOMAIN-SUFFIX,emby.misakaf.org
-DOMAIN-SUFFIX,emby.aca.best
-DOMAIN-SUFFIX,porn.aca.best
-DOMAIN-SUFFIX,stream1.misakaf.org
-DOMAIN-SUFFIX,stream2.misakaf.org
-DOMAIN-SUFFIX,stream3.misakaf.org
-DOMAIN-SUFFIX,stream4.misakaf.org
+DOMAIN,emby.misakaf.org
+DOMAIN,emby.aca.best
+DOMAIN,porn.aca.best
+DOMAIN,stream1.misakaf.org
+DOMAIN,stream2.misakaf.org
+DOMAIN,stream3.misakaf.org
+DOMAIN,stream4.misakaf.org
