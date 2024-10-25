@@ -11,14 +11,14 @@ DOMAIN,theater.makima.online
 DOMAIN,anime.makima.online
 DOMAIN,restrict.makima.online
 DOMAIN,hxd.as174.com
-DOMAIN-SUFFIX,gfhd.19991998.xyz
+DOMAIN,loacl.emby.moe
+DOMAIN,gfhd.19991998.xyz
 
 # 域名后缀匹配
-DOMAIN,loacl.emby.moe
 DOMAIN,cmvideo.cn
-DOMAIN-SUFFIX,dnsany.com
-DOMAIN-SUFFIX,icloudnative.io
-DOMAIN-SUFFIX,993800.xyz
+DOMAIN,dnsany.com
+DOMAIN,icloudnative.io
+DOMAIN,993800.xyz
 
 
 # MyList
