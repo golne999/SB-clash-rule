@@ -1,5 +1,26 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
 
+# G添加
+# 完整域名匹配
+DOMAIN,cinema.fmta.boo
+DOMAIN,theater.fmta.boo
+DOMAIN,anime.fmta.boo
+DOMAIN,restrict.fmta.boo
+DOMAIN,cinema.makima.online
+DOMAIN,theater.makima.online
+DOMAIN,anime.makima.online
+DOMAIN,restrict.makima.online
+DOMAIN,hxd.as174.com
+DOMAIN-SUFFIX,gfhd.19991998.xyz
+
+# 域名后缀匹配
+DOMAIN,loacl.emby.moe
+DOMAIN,cmvideo.cn
+DOMAIN-SUFFIX,dnsany.com
+DOMAIN-SUFFIX,icloudnative.io
+DOMAIN-SUFFIX,993800.xyz
+
+
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,time.windows.com
