@@ -2,12 +2,14 @@
     "version": 1,
     "rules": [
         {
-           "domain_suffix": [
+            "domain": [
+                "cf.bili.rip",
+                "emby.as174.com"
+            ]
+            "domain_suffix": [
                 "depay.one", 
                 "aptoide.com",
                 "keeflys.com",
-                "cf.bili.rip",
-                "emby.as174.com",
                 "orbstack.dev"
             ]
         }
