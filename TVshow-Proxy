@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain_suffix": [
+                "4gtv.tv", 
+                "hinet.net",
+                "ofiii.com",
+                "wx.sb",
+                "livednow.org",
+                "livednow.com"
+            ]
+        }
+    ]
+}
