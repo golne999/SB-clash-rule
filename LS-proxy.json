@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "www.pincong.rocks"
+            ],
+             "domain_suffix": [
+                "pincong.rocks"
+            ]
+        }
+    ]
+}
