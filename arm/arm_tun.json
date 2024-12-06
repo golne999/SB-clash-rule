@@ -32,6 +32,7 @@
       {
         "tag": "localDns",
         "address": "223.5.5.5",
+        "strategy": "prefer_ipv6",
         "detour": "🎯 全球直连"
       },
       {
@@ -47,7 +48,7 @@
      {
       "outbound": "any", 
       "action": "route", 
-      "server": "localDns", 
+      "server": "system-dns", 
       "disable_cache": true
       },
      {
@@ -83,7 +84,9 @@
       }
     ],
     "disable_cache": true,
+    "strategy": "ipv4_only",
     "final": "proxyDns"
+    
   },
 
 "inbounds": [
