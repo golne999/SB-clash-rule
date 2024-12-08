@@ -56,10 +56,21 @@
        "server": "localDns"
       },
       {
-        "rule_set": "geosite-geolocation-!cn",
-         "action": "route",
-         "server": "proxyDns"
-        }
+        "type": "logical",
+        "mode": "and",
+        "rules": [
+          {
+            "rule_set": "geosite-geolocation-!cn",
+            "invert": true
+          },
+          {
+            "rule_set": "geoip-cn"
+          }
+        ],
+        "action": "route",
+        "server": "proxyDns",
+        "client_subnet": "1.0.1.0/24"
+      }
     ],
     "disable_cache": true,
     "final": "proxyDns"
