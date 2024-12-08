@@ -24,21 +24,13 @@
   "dns": {
     "servers": [
       {
-        "tag": "system-dns",
-        "address": "223.5.5.5",
-        "address_strategy": "ipv4_only",
-        "strategy": "ipv4_only",
-        "detour": "🎯 全球直连"
-      },
-      {
         "tag": "localDns",
         "address": "223.5.5.5",
         "detour": "🎯 全球直连"
       },
       {
         "tag": "proxyDns",
-        "address": "https://dns.google.com/dns-query",
-        "address_resolver": "system-dns",
+        "address": "tls://8.8.8.8",
         "address_strategy": "ipv4_only",
         "strategy": "ipv4_only",
         "detour": "🚀 节点选择"
@@ -47,7 +39,7 @@
     "rules": [
      {
       "outbound": "any", 
-      "server": "system-dns", 
+      "server": "localDns", 
       "disable_cache": true
       },
      {
@@ -117,13 +109,13 @@
         "auto_detect_interface": true,
         "final": "GLOBAL",
     "rules": [
-      {"action": "sniff"},
-      {"protocol": "dns", "action": "hijack-dns"},
+      { "action": "sniff"},
+      { "protocol": "dns", "action": "hijack-dns"},
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "icloudnative.io", "fuckcloudnative.io", "sealos.io"], "action": "route", "outbound": "🎯 全球直连" },
-      {"rule_set": "geosite-private", "outbound": "🎯 全球直连"},
-      {"domain_suffix": [ "depay.one", "aptoide.com", "keeflys.com",  "orbstack.dev"], "outbound": "🚀 节点选择" },
+      { "rule_set": "geosite-private", "outbound": "🎯 全球直连"},
+      { "domain_suffix": [ "depay.one", "aptoide.com", "keeflys.com",  "orbstack.dev"], "outbound": "🚀 节点选择" },
       { "rule_set": "geosite-ls-proxy", "outbound": "♾️ 链式代理" },
       { "rule_set": "geosite-youtube",  "outbound": "📮 YouTube" },
       { "rule_set": ["geoip-google", "geosite-google"], "outbound": "📢 Google" },
