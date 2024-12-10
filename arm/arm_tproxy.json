@@ -63,11 +63,24 @@
       "rule_set": "geoip-cn",
        "action": "route",
        "server": "localDns"
+       "disable_cache": true,
       },
       {
-      "rule_set": "geosite-geolocation-!cn",
-       "action": "route",
-       "server": "proxyDns"
+        "type": "logical",
+        "mode": "and",
+        "rules": [
+          {
+            "rule_set": "geosite-geolocation-!cn",
+            "invert": true
+          },
+          {
+            "rule_set": "geoip-cn"
+          }
+        ],
+        "action": "route",
+        "server": "proxyDns",
+        "disable_cache": true,
+        "client_subnet": "114.114.114.114/24"
       }
     ],
     "disable_cache": true,
