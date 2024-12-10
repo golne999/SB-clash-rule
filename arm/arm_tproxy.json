@@ -112,6 +112,7 @@
   "route": {
         "auto_detect_interface": true,
         "final": "GLOBAL",
+         "default_mark": 666,
     "rules": [
       { "action": "sniff"},
       { "protocol": "dns", "action": "hijack-dns"},
