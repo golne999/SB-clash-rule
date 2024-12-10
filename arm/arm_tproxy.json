@@ -62,8 +62,8 @@
      {
       "rule_set": "geoip-cn",
        "action": "route",
-       "server": "localDns"
-       "disable_cache": true,
+       "server": "localDns",
+       "disable_cache": true
       },
       {
         "type": "logical",
