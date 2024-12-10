@@ -54,6 +54,12 @@
        "server": "proxyDns"
      },
      {
+      "domain_suffix": [
+        "993800.xyz"
+        ],
+        "server": "localDns"
+     },  
+     {
       "rule_set": "geoip-cn",
        "action": "route",
        "server": "localDns"
