@@ -25,19 +25,34 @@
  {
    "servers": 
    [
-     {"tag": "dns_direct", "address": "223.5.5.5", "address_strategy": "ipv4_only", "strategy": "prefer_ipv4", "detour": "🎯 全球直连"},
+     {"tag": "dns_direct", "address": "223.5.5.5",  "detour": "🎯 全球直连"},
      {"tag": "dns_proxy", "address": "tls://8.8.8.8", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🚀 节点选择"}
    ],
    "rules": 
    [
      {"outbound": "any", "server": "dns_direct", "disable_cache": true},
-     {"clash_mode": "Direct", "server": "dns_direct"},
-     {"clash_mode": "Global", "server": "dns_proxy"},
-     {"rule_set": "geosite-cn", "action": "route","server": "dns_direct"},
-     {"rule_set": "geosite-geolocation-!cn", "server": "dns_proxy"}
+     {"clash_mode": "Direct", "server": "dns_direct", "disable_cache": true},
+     {"clash_mode": "Global", "server": "dns_proxy", "disable_cache": true},
+     {"rule_set": "geosite-cn", "action": "route","server": "dns_direct", "disable_cache": true},
+     {
+        "type": "logical",
+        "mode": "and",
+        "rules": [
+          {
+            "rule_set": "geosite-geolocation-!cn",
+            "invert": true
+          },
+          {
+            "rule_set": "geoip-cn"
+          }
+        ],
+        "action": "route",
+        "server": "proxyDns",
+        "client_subnet": "1.0.1.0/24"
+      }
    ],
-   "final": "dns_proxy",
-   "strategy": "ipv4_only"
+   "disable_cache": true,
+   "final": "dns_proxy"
 },
 
 "inbounds": [
