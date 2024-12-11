@@ -52,13 +52,7 @@
      {
       "clash_mode": "Global",
        "server": "proxyDns"
-     },
-     {
-      "domain_suffix": [
-        "993800.xyz"
-        ],
-        "server": "proxyDns"
-     },  
+     }, 
      {
       "rule_set": "geoip-cn",
        "action": "route",
