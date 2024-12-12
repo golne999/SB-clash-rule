@@ -34,9 +34,10 @@
      {"clash_mode": "Direct", "server": "dns_direct", "disable_cache": true},
      {"clash_mode": "Global", "server": "dns_proxy", "disable_cache": true},
      {"rule_set": "geosite-cn", "action": "route","server": "dns_direct", "disable_cache": true},
-     {"rule_set": "geosite-geolocation-!cn", "server": "dns_proxy", "disable_cache": true},
+     {"rule_set": "geosite-geolocation-!cn", "server": "dns_proxy", "disable_cache": true}
+  ],
      "disable_cache": true,
-     "final": "dns_proxy"
+     "final": "dns_proxy"   
 },
 
 "inbounds": [
