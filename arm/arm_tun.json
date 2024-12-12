@@ -87,7 +87,6 @@
   "route_exclude_address_set": [
     "geoip-cn"
   ],
-    "strict_route": true,
     "stack": "system",
     "platform": {
       "http_proxy": {
