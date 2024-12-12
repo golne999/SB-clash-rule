@@ -81,8 +81,14 @@
     "192.168.0.0/16",
     "fc00::/7"
   ],
+  "route_address_set": [
+  "geoip-cloudflare"
+  ],
   "route_exclude_address_set": [
     "geoip-cn"
+  ],
+  "route_address_set": [
+    "geoip-cloudflare"
   ],
     "stack": "system",
     "platform": {
@@ -195,8 +201,8 @@
       { "tag": "geoip-private", "type": "remote", "format": "binary", "url": "https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/private.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-ls-proxy", "type": "remote", "format": "source", "url": "https://ghp.ci/raw.githubusercontent.com/golne999/SB-clash-rule/main/LS-proxy.json", "download_detour": "🎯 全球直连" },
       { "tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://ghp.ci/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs", "download_detour": "🎯 全球直连" },
-      { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://ghp.ci/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs", "download_detour": "🎯 全球直连" }
-
+      { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://ghp.ci/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs", "download_detour": "🎯 全球直连" },
+      { "tag": "geoip-cloudflare", "type": "remote", "format": "binary", "url": "https://ghp.ci/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/cloudflare.srs", "download_detour": "🎯 全球直连" }
     ]
   }
 }
