@@ -108,7 +108,7 @@
       { "protocol": "dns", "action": "hijack-dns"},
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
-      { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "icloudnative.io", "fuckcloudnative.io", "sealos.io"], "action": "route", "outbound": "🎯 全球直连" },
+      { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "icloudnative.io", "fuckcloudnative.io", "homeassistant.local", "sealos.io"], "outbound": "🎯 全球直连" },
       {"ip_is_private": true,"outbound": "🎯 全球直连" },
       { "domain_suffix": [ "depay.one", "aptoide.com", "keeflys.com",  "orbstack.dev"], "outbound": "🚀 节点选择" },
       { "rule_set": "geosite-ls-proxy", "outbound": "♾️ 链式代理" },
