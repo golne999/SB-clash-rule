@@ -3,6 +3,7 @@
     "rules": [
         {
             "domain": [
+                "hxd.as174.de",
                 "cdn.jsdelivr.net",
                 "ghp.ci",
                 "cinema.fmta.boo",
