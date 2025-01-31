@@ -91,7 +91,6 @@
     { "tag": "♐ 日本自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇯🇵|JP|jp|日本|日|Japan"] }], "url": "http://cp.cloudflare.com/generate_204", "interval": "10m", "tolerance": 50 },
     { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|套餐|过期|时间|有效|Traffic|Expire|专用"] }], "url": "http://cp.cloudflare.com/generate_204", "interval": "10m", "tolerance": 50 },
     { "tag": "♾️ 链式代理", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong"] }] },
-    { "tag": "⛔ 广告拦截", "type": "selector", "outbounds": ["REJECT", "🎯 全球直连", "🚀 节点选择"] },
     { "tag": "GLOBAL", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "♎ 美国自动", "⛎ 新加坡自动", "♐ 日本自动", "🇭🇰 香港节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "✈️ 手动切换", "🎯 全球直连"] },
     { "tag": "🎯 全球直连", "type": "direct" }
   ],
