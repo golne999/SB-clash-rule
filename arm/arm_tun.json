@@ -101,8 +101,6 @@
     "rules": [
       { "action": "sniff"},
       { "protocol": "dns", "action": "hijack-dns"},
-      { "clash_mode": "direct", "outbound": "🎯 全球直连" },
-      { "clash_mode": "global", "outbound": "GLOBAL" },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "icloudnative.io", "fuckcloudnative.io", "sealos.io"], "outbound": "🎯 全球直连" },
       {"ip_is_private": true,"outbound": "🎯 全球直连" },
       { "domain_suffix": [ "depay.one", "aptoide.com", "keeflys.com",  "orbstack.dev"], "outbound": "🚀 节点选择" },
