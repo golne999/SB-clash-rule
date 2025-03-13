@@ -2,10 +2,6 @@
     "version": 1,
     "rules": [
         {
-            "domain": [
-                "emby.as174.de",
-                "cf.bili.rip"
-                 ],
             "domain_suffix": [
                 "emby.moe",
                 "niceduck.lol"
