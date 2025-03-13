@@ -3,12 +3,13 @@
     "rules": [
         {
             "domain": [
-                "jcf.niceduck.lol",
-                "cf.niceduck.lol",
                 "emby.as174.de",
-                "cf.bili.rip",
-                "dpxcdn.niceduck.lol"
-            ]
+                "cf.bili.rip"
+                 ],
+            "domain_suffix": [
+                "emby.moe",
+                "niceduck.lol"
+            ]          
         }
     ]
 }
